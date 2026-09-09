@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "Random P2P Video Chat App",
   "scripts": {
-    "postinstall": "cd client && npm install && npm run build && cd ../server && npm install",
-    "start": "cd server && node index.js"
+    "start": "cd server && npm install && node index.js"
   },
   "engines": {
     "node": ">=20.19.0"
